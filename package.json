@@ -1,0 +1,16 @@
+{
+  "name": "be_study",
+  "version": "1.0.0",
+  "description": "study BackEnd\r npm : New Public Management : 패키지 관리 도구 \r express : Node.js 웹 애플리케이션 프레임워크",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "figlet": "^1.7.0"
+  }
+}

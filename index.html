@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스타크래프트</title>
+</head>
+
+<body>
+    <div style="position:absolute; width:300px; height:200px; top:0px; left:300px;">
+        <img id = "wraith"  width = "300" height="200" src="https://i.namu.wiki/i/SQdQxON4beLqZnW5ft6o7jaAl0Uopfz6kSV_TBMAMi47qBxbjtAKx2mOw7gZ-xNT0fhMqIYMQCO3j4cD05B8YP09Bmy8l4qj87iEzX3v5VQ-rLFG1I1FmcH7NXH8BlMEaE-PcxJr_Mr9HmwN9gIN5g.webp" alt="레이스">
+</div>
+    <div style="position:absolute; width:100px; height:100px; top:500px; left:300px;">
+        <img id = "cloacking" onclick="hide()" width= "100" height="100" src="https://img1.daumcdn.net/thumb/C176x176/?fname=https://t1.daumcdn.net/tistoryfile/fs11/20_tistory_2008_12_01_16_55_493398712eb80?original" alt="클로킹 버튼">
+</div>
+
+
+    <script> 
+        function hide() { 
+            let status  = document.getElementById("wraith").style.visibility
+            
+            if(status == "" ) { 
+                document.getElementById("wraith").style.visibility = "hidden";
+            }
+            else if (status == "hidden") { 
+                document.getElementById("wraith").style.visibility = "";
+
+            }
+        }
+    </script>
+</body>
+</html>
